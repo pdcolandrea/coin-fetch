@@ -10,4 +10,4 @@ This app is made to be simple. Built with
 
 ## Preview
 
-![img preview](https://raw.githubusercontent.com/pdcolandrea/coin-fetch/master/assets/images/preview.png)
+![img preview](https://raw.githubusercontent.com/pdcolandrea/coin-fetch/master/assets/images/new-preview.png)
