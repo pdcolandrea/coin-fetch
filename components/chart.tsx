@@ -30,7 +30,7 @@ const CryptoChart = ({ data, isLoading, isError }: CryptoChartProps) => {
                 precision={2}
                 format={({ value }) => {
                   'worklet';
-                  const formatPrice = (value) => {
+                  const formatPrice = (value: string) => {
                     return value;
                   };
 
