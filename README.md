@@ -6,6 +6,7 @@ This app is made to be simple. Built with
 - react-query
 - react-native-wagmi-charts
 - react-native-elements
+- Coingecko
 
 ## Preview
 

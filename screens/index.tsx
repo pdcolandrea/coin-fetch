@@ -22,7 +22,7 @@ const getChart = async ({ queryKey }: any) => {
   let q: string = queryKey[1]; // coin
   let q2: string = queryKey[2]; // timerange
   let url = '';
-  
+
   // ETH Contract Address
   if (q.startsWith('0x')) {
     url = `https://api.coingecko.com/api/v3/coins/ethereum/contract/${q}/market_chart?vs_currency=usd&days=${q2}`;
@@ -62,8 +62,8 @@ const MainScreen = () => {
     setQuery('ethereum');
   };
 
-  const onNFTYPress = () => {
-    setQuery('0xE1D7C7a4596B038CEd2A84bF65B8647271C53208');
+  const onUSDTPress = () => {
+    setQuery('0xdac17f958d2ee523a2206206994597c13d831ec7');
   };
 
   const onSOLPress = () => {
@@ -118,9 +118,9 @@ const MainScreen = () => {
           onPress={onSOLPress}
         />
         <OptionCard
-          title="NFTY"
-          body="NFTY is not cool mmmmmmkay"
-          onPress={onNFTYPress}
+          title="USDT"
+          body="USDT is not cool mmmmmmkay"
+          onPress={onUSDTPress}
         />
         <OptionCard title="Custom [ERC20]" setQuery={setQuery} custom />
       </ScrollView>
